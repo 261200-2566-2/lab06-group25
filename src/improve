@@ -1,0 +1,5 @@
+    คิดว่าควร improve ตรง interface ของ accessories เพราะพอเป็น interface ต้อง implement เข้า class ของ hero ที่สามารถ
+สวมใส่ accessories นั้น ๆ ได้ และ code ก็จะซ้ำกัน อาจจะต้องเพิ่ม class WearShoes เพื่อ implement interface Shoes และ class
+WearWings เพื่อ implement interface Wings ขึ้นมาสำหรับให้ hero ต่าง ๆ ได้ extend เข้า class ตัวเองได้เลย แต่ในที่นี้มี tank ที่สามารถ
+สวมได้ทั้งรองเท้าและปีก และไม่สามารถ extend multiple class ได้ เลยคิดว่าน่าจะต้อง เพิ่ม class ShoesAndWings คลาสนี้อาจจะ implement Shoes
+แล้วค่อย extend WearWings
